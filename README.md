@@ -1,4 +1,4 @@
-<p align="left">
+<p align="center">
   <a href="https://www.practical-docker.com"><img src="https://github.com/marcelmaatkamp/practical-docker/blob/master/images/practical-docker-160.png"></a>
   <br />
   https://www.practical-docker.com 
