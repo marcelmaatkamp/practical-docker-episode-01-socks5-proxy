@@ -1,1 +1,3 @@
-# practical-docker-episode-01-socks5-proxy
+# practical-docker
+
+## episode-01: socks5-proxy vs. port forwarding
