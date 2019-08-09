@@ -1,11 +1,5 @@
-# practical-docker.com
-This is the source repository for episode 01 of https://www.practical-docker.com
-
-In these talks I will give practical tips and tricks on how to effectively use Docker as a valuable tool to solve various problems or just use it for fun projects with all kinds of hardware and software! See my YouTube Channel with all episodes for more information.
-
-* [YouTube Channel with all episodes](https://www.youtube.com/channel/UCxp65f-xyu4z1PvmZBKqZGQ)
-
-# episode 01: socks5-proxy vs. port forwarding
+# https://www.practical-docker.com episode 01: socks5-proxy vs. port forwarding
+This is the source repository for episode 01 of https://www.practical-docker.com "socks5-proxy vs. port forwarding"
 
 Opening and forwarding specific ports per docker container is ok for a few containers, the more ports you open the more it becomes a hasstle and totally not clear which ports map to which container. 
 
@@ -15,6 +9,13 @@ Docker containers used:
  * [serjs/go-socks5-proxy](https://hub.docker.com/r/serjs/go-socks5-proxy)
  
 # Installation
+```
+$ git clone &&\ 
+  cd  &&\
+  docker-compose up -d
+```
+# Usage
+
 
 # About
 In these talks I will give practical tips and tricks on how to effectively use Docker as a valuable tool to solve various problems or just use it for fun projects with all kinds of hardware and software! See my [YouTube Channel with all episodes](https://www.youtube.com/channel/UCxp65f-xyu4z1PvmZBKqZGQ) for more information.
