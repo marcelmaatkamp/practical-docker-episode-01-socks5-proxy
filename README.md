@@ -1,5 +1,7 @@
-![](https://github.com/marcelmaatkamp/practical-docker/blob/master/images/practical-docker-320.png)
 # https://www.practical-docker.com 
+<p align="center">
+  <img src="https://github.com/marcelmaatkamp/practical-docker/blob/master/images/practical-docker-320.png">
+</p>
 
 # episode 01: socks5-proxy vs. port forwarding
 This is the source repository for episode 01 of https://www.practical-docker.com "socks5-proxy vs. port forwarding"
