@@ -1,4 +1,6 @@
-# https://www.practical-docker.com episode 01: socks5-proxy vs. port forwarding
+# https://www.practical-docker.com 
+
+# episode 01: socks5-proxy vs. port forwarding
 This is the source repository for episode 01 of https://www.practical-docker.com "socks5-proxy vs. port forwarding"
 
 Opening and forwarding specific ports per docker container is ok for a few containers, the more ports you open the more it becomes a hasstle and totally not clear which ports map to which container. 
