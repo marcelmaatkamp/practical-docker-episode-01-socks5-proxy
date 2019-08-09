@@ -24,7 +24,7 @@ $ git clone &&\
 
 
 # About
-!(https://github.com/marcelmaatkamp/practical-docker/blob/master/images/practical-docker-160.png)
+![https://www.practical-docker.com](https://github.com/marcelmaatkamp/practical-docker/blob/master/images/practical-docker-160.png)
 
 In these talks I will give practical tips and tricks on how to effectively use Docker as a valuable tool to solve various problems or just use it for fun projects with all kinds of hardware and software! See my [YouTube Channel with all episodes](https://www.youtube.com/channel/UCxp65f-xyu4z1PvmZBKqZGQ) for more information.
 * [YouTube Channel with all episodes](https://www.youtube.com/channel/UCxp65f-xyu4z1PvmZBKqZGQ)
