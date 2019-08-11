@@ -4,13 +4,22 @@
   https://www.practical-docker.com 
 </p>
 
-# episode 01: socks5-proxy vs. port forwarding
 This is the source repository for episode 01 of https://www.practical-docker.com "socks5-proxy vs. port forwarding"
+
+# episode 01: socks5-proxy vs. port forwarding
+<a href="https://hub.docker.com/r/serjs/go-socks5-proxy"><img align="right" src="https://github.com/marcelmaatkamp/practical-docker/blob/master/images/practical-docker-socks5-160-drop.png?raw=true"></a>
+<a href="https://hub.docker.com/r/gitlab/gitlab-ce/"><img align="right" src="https://github.com/marcelmaatkamp/practical-docker/blob/master/images/practical-docker-gitlab-160-drop.jpg?raw=true"></a>
+
+[https://github.com/marcelmaatkamp/practical-docker-episode-01-socks5-proxy](https://github.com/marcelmaatkamp/practical-docker-episode-01-socks5-proxy)
 
 Opening and forwarding specific ports per docker container is ok for a few containers, the more ports you open the more it becomes a hasstle and totally not clear which ports map to which container. 
 
 A simple but very effective solution is to use a socks5 proxy. In this episode I will show how to install and use a socks5 proxy and what benefits it brings to use this solution which is that each container can be reached by its internal hostname which is the name of the container.
 
+Docker containers used:
+ * [serjs/go-socks5-proxy](https://hub.docker.com/r/serjs/go-socks5-proxy)
+ * [gitlab/gitlab-ce](https://hub.docker.com/r/gitlab/gitlab-ce/)
+ 
 Docker containers used:
  * [serjs/go-socks5-proxy](https://hub.docker.com/r/serjs/go-socks5-proxy)
  
