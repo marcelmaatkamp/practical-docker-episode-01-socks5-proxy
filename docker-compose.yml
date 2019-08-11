@@ -17,6 +17,10 @@ services:
   ports:
    - "127.0.0.1:1080:1080"
 
+ wordpress:
+  image: wordpress
+  restart: always
+
  gitlab:
   image: gitlab/gitlab-ce:latest
   restart: unless-stopped
