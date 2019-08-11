@@ -4,8 +4,6 @@
   https://www.practical-docker.com 
 </p>
 
-This is the source repository for episode 01 of https://www.practical-docker.com "socks5-proxy vs. port forwarding"
-
 # episode 01: socks5-proxy vs. port forwarding
 <a href="https://hub.docker.com/r/serjs/go-socks5-proxy"><img align="right" src="https://github.com/marcelmaatkamp/practical-docker/blob/master/images/practical-docker-socks5-160-drop.png?raw=true"></a>
 <a href="https://hub.docker.com/r/gitlab/gitlab-ce/"><img align="right" src="https://github.com/marcelmaatkamp/practical-docker/blob/master/images/practical-docker-gitlab-160-drop.jpg?raw=true"></a>
