@@ -1,6 +1,7 @@
 <a href="https://www.practical-docker.com"><img align="right" src="https://github.com/marcelmaatkamp/practical-docker/blob/master/images/practical-docker-160.png"></a>
 
 # https://www.practical-docker.com
+This is the source code repository for <a href="https://www.practical-docker.com">https://www.practical-docker.com</a>
 
 # episode 01: socks5-proxy vs. port forwarding
 [https://github.com/marcelmaatkamp/practical-docker-episode-01-socks5-proxy](https://github.com/marcelmaatkamp/practical-docker-episode-01-socks5-proxy)
