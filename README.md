@@ -36,35 +36,35 @@ Install a proxy switcher in your favorite browser (see below) and goto http://gi
 !(images/practical-docker-gitlab.png)
 
 # Authentication
-The socks5 proxy container also comes with username/password authentication.
+The socks5 proxy container also comes with username/password authentication. 
 
-## Firefox
-Install the addon 'FoxProxy' 
-https://addons.mozilla.org/en-US/firefox/addon/foxyproxy-standard/
-
-!(images/practical-docker-firefox-foxproxy-auth)
-
-And ppen http://gitlab/
-!(images/practical-docker-firefox-gittlab.png)
-
-# Chrome/Chromium
-Beware: this is not available with Firefox and Google Chrome/Chromium because 'passwords are not transferred over a secure channel'. 
-
-## Mac/Safari
-On a Mac Safari open "Network Settings -> Proxies" and enable the Socks-proxy:
-
-| -- | -- |
+| setting | value |
+| ------- | ----- |
 | Protocol | Socks-proxy | 
 | Socks Protocol-server | localhost | 
 | Socks Protocol-port | 1080 | 
 | username | someuser | 
 | password | somepass|
 
-!(images/practical-docker-network-proxy-socks-auth.png)
+# Google Chrome/Chromium
+Beware: this is not available with Firefox and Google Chrome/Chromium because 'passwords are not transferred over a secure channel', see https://bugs.chromium.org/p/chromium/issues/detail?id=256785
+
+## Firefox
+Install the addon 'FoxProxy' 
+https://addons.mozilla.org/en-US/firefox/addon/foxyproxy-standard/
+
+![firefox: foxproxy](images/practical-docker-firefox-foxproxy-auth)
+
+And open http://gitlab/
+![firefox: gitlab](images/practical-docker-firefox-gitlab.png)
+
+## Mac/Safari
+On a Mac Safari open "Network Settings -> Proxies" and enable the Socks-proxy:
+
+![safari: authentication](images/practical-docker-network-proxy-socks-auth.png)
 
 Open Safari and goto http://gitlab/
-!(images/practical-docker-safari-auth-gitlab.png)
-
+![safari: gitlab](images/practical-docker-safari-auth-gitlab.png)
 
 # About
 <a href="https://www.practical-docker.com"><img align="right" src="https://github.com/marcelmaatkamp/practical-docker/blob/master/images/practical-docker-160.png"></a>
