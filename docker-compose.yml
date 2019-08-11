@@ -1,0 +1,31 @@
+# https://github.com/marcelmaatkamp/practical-docker-episode-01-socks5-proxy
+#
+# Opens socks5 proxy on socks5://localhost:1080 with auth 'someuser/somepass'
+#
+# For more examples https://www.practical-docker.com
+#
+# Author: 
+#  Marcel Maatkamp <m.maatkamp@gmail.com>
+
+version: '3'
+services:
+ 
+ proxy:
+  image: serjs/go-socks5-proxy:latest
+  restart: unless-stopped
+  env_file: .env
+  ports:
+   - "127.0.0.1:1080:1080"
+
+ gitlab:
+  image: gitlab/gitlab-ce:latest
+  restart: unless-stopped
+  volumes:
+   - gitlab-config:/etc/gitlab:Z
+   - gitlab-logs:/var/log/gitlab:Z
+   - gitlab-data:/var/opt/gitlab:Z
+
+volumes:
+ gitlab-config:
+ gitlab-logs:
+ gitlab-data:

@@ -16,10 +16,8 @@ A simple but very effective solution is to use a socks5 proxy. In this episode I
 Docker containers used:
  * [serjs/go-socks5-proxy](https://hub.docker.com/r/serjs/go-socks5-proxy)
  * [gitlab/gitlab-ce](https://hub.docker.com/r/gitlab/gitlab-ce/)
- 
-Docker containers used:
- * [serjs/go-socks5-proxy](https://hub.docker.com/r/serjs/go-socks5-proxy)
- 
+
+
 # Installation
 ```
 $ git clone &&\ 
@@ -27,6 +25,45 @@ $ git clone &&\
   docker-compose up -d
 ```
 # Usage
+Install a proxy switcher in your favorite browser (see below) and goto http://gitlab/
+
+## Firefox
+
+## Chrome/Chromium
+
+## Mac/Safari
+
+!(images/practical-docker-gitlab.png)
+
+# Authentication
+The socks5 proxy container also comes with username/password authentication.
+
+## Firefox
+Install the addon 'FoxProxy' 
+https://addons.mozilla.org/en-US/firefox/addon/foxyproxy-standard/
+
+!(images/practical-docker-firefox-foxproxy-auth)
+
+And ppen http://gitlab/
+!(images/practical-docker-firefox-gittlab.png)
+
+# Chrome/Chromium
+Beware: this is not available with Firefox and Google Chrome/Chromium because 'passwords are not transferred over a secure channel'. 
+
+## Mac/Safari
+On a Mac Safari open "Network Settings -> Proxies" and enable the Socks-proxy:
+
+| -- | -- |
+| Protocol | Socks-proxy | 
+| Socks Protocol-server | localhost | 
+| Socks Protocol-port | 1080 | 
+| username | someuser | 
+| password | somepass|
+
+!(images/practical-docker-network-proxy-socks-auth.png)
+
+Open Safari and goto http://gitlab/
+!(images/practical-docker-safari-auth-gitlab.png)
 
 
 # About
