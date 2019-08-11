@@ -1,5 +1,5 @@
-<a href="https://www.practical-docker.com"><img align="right" src="https://github.com/marcelmaatkamp/practical-docker/blob/master/images/practical-docker-160.png">
-https://www.practical-docker.com</a>
+# https://www.practical-docker.com
+<a href="https://www.practical-docker.com"><img align="center" src="https://github.com/marcelmaatkamp/practical-docker/blob/master/images/practical-docker-160.png"></a>
 
 # episode 01: socks5-proxy vs. port forwarding
 <a href="https://hub.docker.com/r/serjs/go-socks5-proxy"><img align="right" src="https://github.com/marcelmaatkamp/practical-docker/blob/master/images/practical-docker-socks5-160-drop.png?raw=true"></a>
